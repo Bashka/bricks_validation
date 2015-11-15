@@ -1,0 +1,35 @@
+{
+    "name": "bashka/bricks_validation",
+    "version": "1.0",
+    "description": "Валидаторы и фильтры",
+    "license": "GNU-3.0",
+    "authors": [
+        {
+            "name": "Artur Sh. Mamedbekov",
+            "email": "Artur-Mamedbekov@yandex.ru"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.0"
+    },
+    "autoload": {
+      "classmap": [
+        "Input.php",
+        "InvalidValidateException.php",
+        "Filter.php",
+        "Validator.php",
+        "Filters/Int.php",
+        "Filters/IntRange.php",
+        "Filters/String.php",
+        "Filters/StringRange.php",
+        "Filters/Trim.php",
+        "Filters/Path.php",
+        "Validators/NoEmpty.php",
+        "Validators/Length.php"
+        "Validators/Regex.php"
+        "Validators/Email.php"
+        "Validators/Ip.php"
+        "Validators/Url.php"
+      ]
+    }
+}
