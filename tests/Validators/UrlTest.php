@@ -1,7 +1,7 @@
 <?php
 namespace Bricks\Validation\Validators;
-require('Validator.php');
-require('Validators/Url.php');
+require_once('Validator.php');
+require_once('Validators/Url.php');
 
 /**
  * @author Artur Sh. Mamedbekov
@@ -24,7 +24,6 @@ class UrlTest extends \PHPUnit_Framework_TestCase{
     $this->assertTrue($this->validator->isValid('https://site.com/path/to/file', []));
     $this->assertTrue($this->validator->isValid('https://site.com/?a=1', []));
     $this->assertTrue($this->validator->isValid('https://site.com/#test', []));
-    $this->assertTrue(filter_var('/path/to/file', FILTER_VALIDATE_URL));
 
     $this->assertFalse($this->validator->isValid('', []));
     $this->assertFalse($this->validator->isValid('site.com', []));

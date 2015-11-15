@@ -1,7 +1,7 @@
 <?php
 namespace Bricks\Validation\Filters;
-require('Filter.php');
-require('Filters/Path.php');
+require_once('Filter.php');
+require_once('Filters/Path.php');
 
 /**
  * @author Artur Sh. Mamedbekov

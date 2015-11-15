@@ -1,12 +1,12 @@
 <?php
 namespace Bricks\Validation\Filters;
-require('Filter.php');
-require('Filters/StringRange.php');
+require_once('Filter.php');
+require_once('Filters/StringRange.php');
 
 /**
  * @author Artur Sh. Mamedbekov
  */
-class IntTest extends \PHPUnit_Framework_TestCase{
+class StringRangeTest extends \PHPUnit_Framework_TestCase{
   /**
    * @var StringRange Тестируемый объект.
 	 */

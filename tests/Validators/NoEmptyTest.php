@@ -1,7 +1,7 @@
 <?php
 namespace Bricks\Validation\Validators;
-require('Validator.php');
-require('Validators/NoEmpty.php');
+require_once('Validator.php');
+require_once('Validators/NoEmpty.php');
 
 /**
  * @author Artur Sh. Mamedbekov

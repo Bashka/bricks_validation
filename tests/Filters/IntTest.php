@@ -1,7 +1,7 @@
 <?php
 namespace Bricks\Validation\Filters;
-require('Filter.php');
-require('Filters/Int.php');
+require_once('Filter.php');
+require_once('Filters/Int.php');
 
 /**
  * @author Artur Sh. Mamedbekov

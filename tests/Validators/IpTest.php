@@ -1,7 +1,7 @@
 <?php
 namespace Bricks\Validation\Validators;
-require('Validator.php');
-require('Validators/Ip.php');
+require_once('Validator.php');
+require_once('Validators/Ip.php');
 
 /**
  * @author Artur Sh. Mamedbekov

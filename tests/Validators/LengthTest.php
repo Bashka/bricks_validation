@@ -1,7 +1,7 @@
 <?php
 namespace Bricks\Validation\Validators;
-require('Validator.php');
-require('Validators/Length.php');
+require_once('Validator.php');
+require_once('Validators/Length.php');
 
 /**
  * @author Artur Sh. Mamedbekov

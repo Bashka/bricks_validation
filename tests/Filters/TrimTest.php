@@ -1,12 +1,12 @@
 <?php
 namespace Bricks\Validation\Filters;
-require('Filter.php');
-require('Filters/Trim.php');
+require_once('Filter.php');
+require_once('Filters/Trim.php');
 
 /**
  * @author Artur Sh. Mamedbekov
  */
-class IntTest extends \PHPUnit_Framework_TestCase{
+class TrimTest extends \PHPUnit_Framework_TestCase{
   /**
    * @var Trim Тестируемый объект.
 	 */
