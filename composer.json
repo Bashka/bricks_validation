@@ -1,6 +1,6 @@
 {
     "name": "bashka/bricks_validation",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Валидаторы и фильтры",
     "license": "GNU-3.0",
     "authors": [
@@ -24,6 +24,7 @@
         "Filters/StringRange.php",
         "Filters/Trim.php",
         "Filters/Path.php",
+        "Filters/Url.php",
         "Validators/NoEmpty.php",
         "Validators/Length.php"
         "Validators/Regex.php"
