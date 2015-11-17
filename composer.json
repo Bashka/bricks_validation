@@ -26,10 +26,10 @@
         "Filters/Path.php",
         "Filters/Url.php",
         "Validators/NoEmpty.php",
-        "Validators/Length.php"
-        "Validators/Regex.php"
-        "Validators/Email.php"
-        "Validators/Ip.php"
+        "Validators/Length.php",
+        "Validators/Regex.php",
+        "Validators/Email.php",
+        "Validators/Ip.php",
         "Validators/Url.php"
       ]
     }
