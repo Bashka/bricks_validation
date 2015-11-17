@@ -15,7 +15,7 @@
     "autoload": {
       "classmap": [
         "Input.php",
-        "InvalidValidateException.php",
+        "ValidateException.php",
         "Filter.php",
         "Validator.php",
         "Filters/Int.php",
@@ -26,10 +26,10 @@
         "Filters/Path.php",
         "Filters/Url.php",
         "Validators/NoEmpty.php",
-        "Validators/Length.php"
-        "Validators/Regex.php"
-        "Validators/Email.php"
-        "Validators/Ip.php"
+        "Validators/Length.php",
+        "Validators/Regex.php",
+        "Validators/Email.php",
+        "Validators/Ip.php",
         "Validators/Url.php"
       ]
     }
