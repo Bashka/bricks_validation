@@ -7,7 +7,7 @@ use Bricks\Validation\Validator;
  *
  * @author Artur Sh. Mamedbekov
  */
-class Ip{
+class Ip implements Validator{
   /**
    * Параметры:
    *   - ip [optional] - тип IP адреса (6 - IPv6, 4 - IPv4) (по умолчанию 

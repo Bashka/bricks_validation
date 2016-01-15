@@ -7,7 +7,7 @@ use Bricks\Validation\Validator;
  *
  * @author Artur Sh. Mamedbekov
  */
-class Url{
+class Url implements Validator{
   /**
    * @see Validator::isValid
    */

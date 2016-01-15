@@ -7,7 +7,7 @@ use Bricks\Validation\Validator;
  *
  * @author Artur Sh. Mamedbekov
  */
-class Length{
+class Length implements Validator{
   /**
    * Параметры:
    *   - min [optional] - нижняя граница диапазона

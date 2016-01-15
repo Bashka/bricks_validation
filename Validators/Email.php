@@ -7,7 +7,7 @@ use Bricks\Validation\Validator;
  *
  * @author Artur Sh. Mamedbekov
  */
-class Email{
+class Email implements Validator{
   /**
    * @see Validator::isValid
    */
